@@ -25,7 +25,7 @@ struct TechnicalTestEbuddyApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UserView()
                 .onAppear {
                     print("Current Environment: \(currentEnvironment)")
                 }
