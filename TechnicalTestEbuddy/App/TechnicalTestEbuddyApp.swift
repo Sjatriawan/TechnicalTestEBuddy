@@ -8,21 +8,27 @@
 import SwiftUI
 import FirebaseCore
 
-class AppDelegate: NSObject, UIApplicationDelegate {
-  func application(_ application: UIApplication,
-                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-    FirebaseApp.configure()
-    return true
-  }
-}
 
 @main
 struct TechnicalTestEbuddyApp: App {
+    let currentEnvironment: AppEnv = {
+        #if DEVELOPMENT
+        return .development
+        #elseif STAGING
+        return .staging
+        #else
+        return .production
+        #endif
+    }()
+
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    print("Current Environment: \(currentEnvironment)")
+                }
         }
     }
 }
