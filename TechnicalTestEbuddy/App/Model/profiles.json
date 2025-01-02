@@ -1,0 +1,69 @@
+{
+  "USERS": {
+    "1f4a07f2-b75a-48ed-85ad-fbb4ef2fa084": {
+      "uid": "1f4a07f2-b75a-48ed-85ad-fbb4ef2fa084",
+      "username": "Zynx",
+      "rating": 4.9,
+      "ratingCount": 61,
+      "hourlyRate": 110,
+      "isOnline": true,
+      "lastActiveTimestamp": 1703862000,
+      "isVerified": true,
+      "games": ["game1", "game2", "game3"],
+      "ge": "male",
+      "profileImageURL": null
+    },
+    "dbe47a87-4c0b-429b-957d-488c529507d5": {
+      "uid": "dbe47a87-4c0b-429b-957d-488c529507d5",
+      "username": "Arcanix",
+      "rating": 4.7,
+      "ratingCount": 120,
+      "hourlyRate": 95,
+      "isOnline": false,
+      "lastActiveTimestamp": 1703775600,
+      "isVerified": true,
+      "games": ["dota2", "valorant", "fortnite"],
+      "ge": "male",
+      "profileImageURL": null
+    },
+    "28a88f1a-d7b2-4c81-becf-045ad6a9aeb5": {
+      "uid": "28a88f1a-d7b2-4c81-becf-045ad6a9aeb5",
+      "username": "Skyhawk",
+      "rating": 4.8,
+      "ratingCount": 89,
+      "hourlyRate": 105,
+      "isOnline": true,
+      "lastActiveTimestamp": 1703862000,
+      "isVerified": false,
+      "games": ["csgo", "pubg", "apex_legends"],
+      "ge": "female",
+      "profileImageURL": null
+    },
+    "0e1a4381-99b7-44d2-a1be-67a8e9819c27": {
+      "uid": "0e1a4381-99b7-44d2-a1be-67a8e9819c27",
+      "username": "ShadowHunter",
+      "rating": 4.6,
+      "ratingCount": 72,
+      "hourlyRate": 85,
+      "isOnline": false,
+      "lastActiveTimestamp": 1703776500,
+      "isVerified": true,
+      "games": ["minecraft", "league_of_legends", "overwatch"],
+      "ge": "male",
+      "profileImageURL": null
+    },
+    "da349c88-21f3-4c34-b55a-7dbef7e3edb1": {
+      "uid": "da349c88-21f3-4c34-b55a-7dbef7e3edb1",
+      "username": "Phoenix",
+      "rating": 4.9,
+      "ratingCount": 140,
+      "hourlyRate": 120,
+      "isOnline": true,
+      "lastActiveTimestamp": 1703862000,
+      "isVerified": true,
+      "games": ["valorant", "cod", "fortnite"],
+      "ge": "female",
+      "profileImageURL": null
+    }
+  }
+}
